@@ -108,7 +108,7 @@ Boolean: TRUE { outfile << "Boolean literal encountered" << endl;
 
 
 int main(int, char**) {
-	FILE *myfile = fopen("A2_input2.txt", "r");
+	FILE *myfile = fopen("test_input.txt", "r");
 	// Input file
 	if (!myfile) {
 		cout <<"Input file not found!" << endl;

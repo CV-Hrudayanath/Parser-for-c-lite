@@ -1,5 +1,5 @@
-Assignment2.l contains the flex code.
-Assignment2.y contains the code for parsing ( Bison File ).
+flex_code.l contains the flex code.
+parser.y contains the code for parsing ( Bison File ).
 Execution: bash run.sh ( run this file )
 Input: test_input.txt
 Output: bison_output.txt

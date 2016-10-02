@@ -5,7 +5,7 @@ using namespace std;
 #define YY_DECL extern "C" int yylex()
 
 // to get the token types that we return
-#include "Assignment2.tab.h"  
+#include "parser.tab.h"  
 
 int linenum=1;
 int c=1;
